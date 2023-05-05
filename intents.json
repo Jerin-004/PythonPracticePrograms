@@ -1,0 +1,22 @@
+{"intents" : [
+    {"tag":  "greetings",
+    "patterns": ["hello","hey","hi","good day","Greetings","what's up?", "how is it going?"],
+    "responses" :["Hello","Hey!","What can I do for you??"]
+    },
+    {"tag":  "goodbye",
+    "patterns": ["See you later","Goodbye","I am leaving","Have a good day","bye","ok bye", "see ya"],
+    "responses" :["Sad to see you go:(","Ok talk to you later","Good bye !"]
+    },
+    {"tag":  "age",
+    "patterns": ["how old is jerin","what is the age of jerin","how old are you","what is your age", "age?"],
+    "responses" :["Me and my are same age 17 years!!"]
+    },
+    {"tag":  "name",
+    "patterns": ["what are you","who is your owner","what should I call you","what is your name?","who are you?","Can you tell me your name"],
+    "responses" :["You can call jack, My owner who created me is Jerin"]
+    },
+    {"tag":  "benny",
+    "patterns": ["i am benny", "Hi my name is benny"],
+    "responses" :["Hi benny i dont want to talk with you, I am sorry"]
+    }
+]}
